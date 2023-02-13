@@ -1,0 +1,38 @@
+Steps file:
+#P_G0_G1_G2_G3_F_vx|y#
+
+Empty line: ##
+
+_ is for Direction:
+X-Down
+W-UP
+D-RIGHT
+A-LEFT
+S-STAY
+
+G0/G1/G2/G3 represents the ghosts
+v - value of the fruit
+x - x value of the fruit
+y - y value of the fruit
+
+F-Fruit 
+Then direction then value (if value=-1 then unvisible else visible)
+if visibility just turned true then x value then "|" then y value
+for example: FD512|14 
+Direction=RIGHT value=5 x=12 y=14
+
+only the creauturs that made a 
+change in the specific TimePoint 
+are written by the order above.
+
+Result file:
+the commands is what changeable
+The pacman /*died\won*/ in
+1) //first death time
+2) //second death time
+3) //third death time
+The pacman's last point of time is: //end time
+
+For example easy won would be like followed:
+The pacman won in
+The pacman's last point of time is: //end time
